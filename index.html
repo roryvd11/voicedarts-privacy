@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Voice Darts</title>
+  <meta name="description" content="Privacy policy for Voice Darts: your data stays on your device.">
+  <style>
+    :root { --accent:#16c172; --ink:#1b1f24; --muted:#5b6470; --line:#e7eaee; --bg:#ffffff; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink:#e8ebef; --muted:#9aa4b0; --line:#232a31; --bg:#0f1216; }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 56px 22px 80px; }
+    header { border-bottom: 1px solid var(--line); padding-bottom: 22px; margin-bottom: 30px; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; }
+    .dot { width: 26px; height: 26px; border-radius: 50%; background: var(--accent); display: grid; place-items: center; font-size: 15px; }
+    h1 { font-size: 30px; line-height: 1.2; margin: 18px 0 6px; letter-spacing: -.01em; }
+    .updated { color: var(--muted); font-size: 14px; margin: 0; }
+    h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent); margin: 38px 0 10px; }
+    p { margin: 0 0 16px; }
+    .lead { font-size: 18px; }
+    ul { margin: 0 0 16px; padding: 0; list-style: none; }
+    li { position: relative; padding-left: 22px; margin: 0 0 14px; }
+    li::before { content: ""; position: absolute; left: 4px; top: 11px; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+    a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <span class="brand"><span class="dot">🎯</span> Voice Darts</span>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: June 2026</p>
+    </header>
+
+    <p class="lead">Voice Darts is built on a simple principle: your data stays on your device.</p>
+
+    <h2>What we collect</h2>
+    <p>Voice Darts does not collect, transmit, or store any personal data on external servers. There is no backend. There is no analytics. There is no account required to play.</p>
+    <p>The following data is stored locally on your device only:</p>
+    <ul>
+      <li><strong>Microphone audio</strong> — used in real time to recognise your spoken score. Audio is processed by Apple's on-device speech recognition (iOS 17+). It is never recorded or saved.</li>
+      <li><strong>Speech recognition</strong> — processed by Apple's Speech framework. On-device recognition is used by default. If on-device assets are unavailable, iOS may send audio to Apple's servers for processing under Apple's own privacy policy (<a href="https://www.apple.com/privacy/">apple.com/privacy</a>).</li>
+      <li><strong>Player names and game settings</strong> — stored in your device's local storage (UserDefaults). Never transmitted.</li>
+      <li><strong>Lifetime stats</strong> (180s, averages, win counts) — stored locally on your device. Never transmitted.</li>
+      <li><strong>Sign in with Apple</strong> (optional) — if you choose to sign in, Apple provides a user identifier and optional name/email. This information is stored locally on your device only and is never sent to any server operated by Voice Darts.</li>
+    </ul>
+
+    <h2>Third parties</h2>
+    <p>Voice Darts does not use any third-party analytics, advertising, or tracking SDKs.</p>
+
+    <h2>Children</h2>
+    <p>Voice Darts does not knowingly collect any information from children under 13.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the updated version will be included with the next app update.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? Reach us at <a href="mailto:rory@peachbasket.ie">rory@peachbasket.ie</a>.</p>
+
+    <footer>© 2026 Voice Darts. This page mirrors the privacy policy bundled with the app.</footer>
+  </main>
+</body>
+</html>
